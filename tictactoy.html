@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic Tac Toy Game</title>
+    <style>
+        body
+        {
+            background-color: rgb(119, 212, 75);
+        }
+        #table
+        {
+            border: 1px solid black;
+            margin-left: 400px;
+            width: 500px;
+            height: 500px;
+        }
+        td
+        {
+            border: 1px solid rgb(13, 14, 13);
+          
+        }
+        td div
+        {
+            background-color: aliceblue;
+        }
+        div 
+        {
+           
+           
+            width: 160px;
+            height: 170px;
+        }
+        .container2
+        {
+            height: 550px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        p
+        {
+            width: 100px;
+            font-size: 50px;
+            font-weight: 700;
+            font-family:  Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+
+        }
+        
+    </style>
+</head>
+<body>
+    
+    <div class="container2">
+        <div class="container">
+             <p id="disWiner1"></p>
+        </div>
+        <table id="table" class="table">
+            <tr>
+                <td  ><div id="tic0" class="dis"></div></td>
+                <td  ><div id="tic1" class="dis"></div></td>
+                <td  ><div id="tic2" class="dis"></div></td>
+    
+            </tr>
+            <tr>
+                <td  ><div id="tic3" class="dis"></div></td>
+                <td  ><div id="tic4" class="dis"></div></td>
+                <td  ><div id="tic5" class="dis"></div></td>
+            </tr>
+            <tr>
+                <td  ><div id="tic6" class="dis"></div></td>
+                <td  ><div id="tic7" class="dis"></div></td>
+                <td  ><div id="tic8" class="dis"></div></td>
+                
+            </tr>
+        </table>
+        <div class="container">
+            <p id="disWiner2"></p>
+       </div>
+    </div>
+
+    <script src="tictac.js">
+        
+    </script>
+</body>
+</html>
